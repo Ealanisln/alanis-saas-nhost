@@ -15,6 +15,8 @@ const SignIn = () => {
   const { signInEmailPasswordless, isLoading, isError, error, isSuccess } =
     useSignInEmailPasswordless();
 
+    console.log({ isLoading, isSuccess, isError, error })
+
   const handleSignin = async (e: FormEvent<HTMLFormElement>) => {
     e.preventDefault();
 

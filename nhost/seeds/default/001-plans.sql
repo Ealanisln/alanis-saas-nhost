@@ -4,30 +4,23 @@ INSERT INTO
   public.plans (name, stripe_price_id, amount, currency, description)
 VALUES
   (
-    'Hobby',
-    'price_1M82BOCCF9wuB4fX3BplVWB9',
-    1200,
+    'Plus',
+    'price_1N1zQxJ1rFgDrHwLwnWWkR06',
+    999,
     'USD',
-    'Hobby Description'
+    'The highest level of service and capabilities, designed for power users.'
   ),
   (
-    'Startup',
-    'price_1M82BuCCF9wuB4fXhdtUU6Pk',
-    2400,
+    'Basic',
+    'price_1N1zQTJ1rFgDrHwLIGafOTAJ',
+    690,
     'USD',
-    'Startup Description'
+    'Designed for those who need a little more functionality but still want to keep costs down.'
   ),
   (
-    'Pro',
-    'price_1M82CACCF9wuB4fXZ019vYFb',
-    3200,
+    'Lite',
+    'price_1N1zPjJ1rFgDrHwLUC8l9h9B',
+    389,
     'USD',
-    'Pro Description'
-  ),
-  (
-    'Enterprise',
-    'price_1M82CTCCF9wuB4fXA9Sg5jyT',
-    4800,
-    'USD',
-    'Enterprise Description'
+    'Suitable for small businesses or individuals on a budget.'
   );
